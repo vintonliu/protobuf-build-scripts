@@ -1,0 +1,13 @@
+prefix=/Users/51talk/Desktop/Vinton/work/github/protobuf/output/android/protobuf/install/armeabi-v7a
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.11.2
+Libs: -L${libdir} -lprotobuf 
+Libs.private: -llog -lz -lc++_static
+
+Cflags: -I${includedir} -pthread
+Conflicts: protobuf-lite
