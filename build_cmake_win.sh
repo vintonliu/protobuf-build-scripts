@@ -6,7 +6,7 @@ BUILD_MODE="Release"
 
 ARCHS=(
     "Win32"
-    "x64"
+#    "x64"
 )
 
 SOURCE_DIR="$CWD"
